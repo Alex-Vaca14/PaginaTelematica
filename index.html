@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de inicio de ejemplo de la Facultad de Telemática de la Universidad de Colima.">
+  <title>Facultad de Telemática | Universidad de Colima</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Facultad de Telemática, inicio">
+        <span class="brand-mark" aria-hidden="true">FT</span>
+        <span class="brand-copy"><strong>Facultad de Telemática</strong><small>Universidad de Colima</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#inicio" aria-current="page">Inicio</a>
+        <a href="#facultad">La Facultad</a>
+        <a href="#programas">Programas</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#avisos">Avisos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Tecnología · Innovación · Futuro</p>
+          <h1 id="hero-title">Formando talento para un mundo digital</h1>
+          <p class="hero-description">Conoce nuestros programas educativos, descubre lo que sucede en la Facultad y encuentra los recursos que necesitas para tu vida académica.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="#programas">Admisión <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#fechas">Calendario</a>
+            <a class="button button-outline" href="#plataformas">Plataformas para estudiantes</a>
+          </div>
+          <div class="hero-note"><span class="status-dot" aria-hidden="true"></span> Aprende, crea y conecta con el futuro</div>
+        </div>
+        <div class="hero-art" role="img" aria-label="Ilustración abstracta de tecnología, datos y conectividad">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card card-code"><span class="code-dots">● ● ●</span><span class="code-line long"></span><span class="code-line medium"></span><span class="code-line short"></span><span class="code-line medium"></span></div>
+          <div class="art-chip"><span aria-hidden="true">⌘</span><small>IDEAS</small></div>
+          <div class="art-node node-one">01</div><div class="art-node node-two">{ }</div><div class="art-node node-three">↗</div>
+          <div class="art-caption"><span class="caption-icon">✦</span><span><strong>Conocimiento que conecta</strong><small>Ideas para transformar el mañana</small></span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-shape" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="facultad" aria-labelledby="about-title">
+      <div class="container about-strip">
+        <div><p class="eyebrow eyebrow-dark">Bienvenido a la Facultad</p><h2 id="about-title">La tecnología comienza con buenas ideas.</h2></div>
+        <p>Un espacio para aprender, investigar y desarrollar soluciones que respondan a los retos del entorno digital.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="programas" aria-labelledby="programas-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow eyebrow-dark">Tu próximo paso</p><h2 id="programas-title">Programas educativos</h2></div><a class="text-link" href="#contacto">Conoce más <span aria-hidden="true">→</span></a></div>
+        <div class="card-grid three-cols">
+          <article class="program-card">
+            <div class="program-visual visual-network" role="img" aria-label="Ilustración de nodos conectados"><span class="visual-symbol">⌘</span><span class="visual-tag">CONECTIVIDAD</span></div>
+            <div class="card-content"><span class="card-kicker">Licenciatura</span><h3>Ingeniería en Telemática</h3><p>Redes, sistemas y tecnologías para conectar personas e información.</p><a class="card-link" href="#contacto">Ver programa <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card">
+            <div class="program-visual visual-computing" role="img" aria-label="Ilustración de una pantalla con código"><span class="visual-symbol">{ }</span><span class="visual-tag">DESARROLLO</span></div>
+            <div class="card-content"><span class="card-kicker">Posgrado</span><h3>Maestría en Ciencias de la Computación</h3><p>Profundiza en computación, investigación y desarrollo tecnológico.</p><a class="card-link" href="#contacto">Ver programa <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card">
+            <div class="program-visual visual-research" role="img" aria-label="Ilustración de una red de investigación"><span class="visual-symbol">✳</span><span class="visual-tag">INVESTIGACIÓN</span></div>
+            <div class="card-content"><span class="card-kicker">Posgrado</span><h3>Doctorado en Ciencias de la Computación</h3><p>Genera conocimiento y contribuye a la innovación científica.</p><a class="card-link" href="#contacto">Ver programa <span aria-hidden="true">→</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="noticias" aria-labelledby="noticias-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow eyebrow-dark">Entérate</p><h2 id="noticias-title">Noticias de la Facultad</h2></div><a class="text-link" href="#noticias">Todas las noticias <span aria-hidden="true">→</span></a></div>
+        <div class="card-grid three-cols news-grid">
+          <article class="news-card"><div class="news-visual news-cyber" role="img" aria-label="Ilustración de ciberseguridad"><span>SEGURIDAD DIGITAL</span><b aria-hidden="true">⌁</b></div><div class="card-content"><time datetime="2026-10-20">20 de octubre de 2026</time><h3>Conferencia sobre ciberseguridad en la Facultad</h3><p>Una jornada para conocer tendencias y buenas prácticas de seguridad digital.</p><a class="card-link" href="#contacto">Leer noticia <span aria-hidden="true">→</span></a></div></article>
+          <article class="news-card"><div class="news-visual news-network" role="img" aria-label="Ilustración de una red inteligente"><span>INNOVACIÓN</span><b aria-hidden="true">⌘</b></div><div class="card-content"><time datetime="2026-10-16">16 de octubre de 2026</time><h3>Proyecto de redes inteligentes recibe reconocimiento</h3><p>Estudiantes y docentes impulsan nuevas propuestas tecnológicas.</p><a class="card-link" href="#contacto">Leer noticia <span aria-hidden="true">→</span></a></div></article>
+          <article class="news-card"><div class="news-visual news-mobility" role="img" aria-label="Ilustración de movilidad académica"><span>OPORTUNIDADES</span><b aria-hidden="true">↗</b></div><div class="card-content"><time datetime="2026-10-10">10 de octubre de 2026</time><h3>Convocatoria a movilidad académica 2027-1</h3><p>Consulta las oportunidades de intercambio y prepara tu solicitud.</p><a class="card-link" href="#contacto">Leer noticia <span aria-hidden="true">→</span></a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="avisos" aria-labelledby="avisos-title">
+      <div class="container notice-layout">
+        <div class="notice-intro"><p class="eyebrow eyebrow-dark">Información importante</p><h2 id="avisos-title">Avisos y comunicados</h2><p>Revisa las novedades y mantente al tanto de las actividades académicas.</p></div>
+        <div class="notice-list">
+          <article class="notice notice-warning"><span class="notice-icon" aria-hidden="true">!</span><div><span class="notice-label">Importante</span><h3>Cierre de inscripciones</h3><p>Consulta las fechas y requisitos del proceso en los canales oficiales.</p></div><span class="notice-arrow" aria-hidden="true">↗</span></article>
+          <article class="notice notice-info"><span class="notice-icon" aria-hidden="true">i</span><div><span class="notice-label">Comunicado</span><h3>Uso de aulas de cómputo</h3><p>Recuerda respetar los horarios y lineamientos de los laboratorios.</p></div><span class="notice-arrow" aria-hidden="true">↗</span></article>
+          <article class="notice notice-success"><span class="notice-icon" aria-hidden="true">✓</span><div><span class="notice-label">Actividad</span><h3>Semana Académica de Telemática</h3><p>Próximamente se publicará el programa completo de actividades.</p></div><span class="notice-arrow" aria-hidden="true">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fechas" aria-labelledby="fechas-title">
+      <div class="container dates-layout"><div><p class="eyebrow eyebrow-dark">Organiza tu semestre</p><h2 id="fechas-title">Fechas importantes</h2><p class="section-intro">Fechas de ejemplo; confirma la información en los medios oficiales.</p></div>
+        <div class="table-wrap"><table><caption>Calendario académico</caption><thead><tr><th scope="col">Etapa</th><th scope="col">Inicio</th><th scope="col">Fin</th></tr></thead><tbody><tr><th scope="row">Registro de aspirantes</th><td>Por confirmar</td><td>Por confirmar</td></tr><tr><th scope="row">Inscripciones</th><td>Por confirmar</td><td>Por confirmar</td></tr><tr><th scope="row">Inicio de clases</th><td>Por confirmar</td><td>Por confirmar</td></tr></tbody></table></div>
+      </div>
+    </section>
+
+    <section class="section platform-section" id="plataformas" aria-labelledby="platform-title"><div class="container platform-banner"><div><p class="eyebrow">Accesos rápidos</p><h2 id="platform-title">Todo lo que necesitas para seguir aprendiendo.</h2><p>Encuentra tus herramientas y servicios académicos en un solo lugar.</p></div><div class="platform-actions"><a href="#contacto" class="button button-light">Plataformas para estudiantes <span aria-hidden="true">↗</span></a><a href="#fechas" class="platform-text-link">Consultar calendario →</a></div></div></section>
+
+    <section class="section" id="contacto" aria-labelledby="contacto-title"><div class="container contact-layout"><div class="contact-copy"><p class="eyebrow eyebrow-dark">Estamos para ayudarte</p><h2 id="contacto-title">Ponte en contacto</h2><p>¿Tienes dudas sobre los programas o los servicios? Envíanos un mensaje mediante este formulario de demostración.</p><div class="contact-detail"><span aria-hidden="true">✉</span><div><strong>Correo institucional</strong><p>Consulta los medios oficiales de la Facultad.</p></div></div></div>
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-field"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" type="text" autocomplete="name" required aria-describedby="error-nombre"><span class="field-error" id="error-nombre"></span></div>
+        <div class="form-field"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required aria-describedby="error-correo"><span class="field-error" id="error-correo"></span></div>
+        <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" required aria-describedby="error-mensaje"></textarea><span class="field-error" id="error-mensaje"></span></div>
+        <button class="button button-primary" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite">Los mensajes no se envían a un servidor; esta es una demostración visual.</p>
+      </form>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true">FT</span><span class="brand-copy"><strong>Facultad de Telemática</strong><small>Universidad de Colima</small></span></a><p>Conocimiento, tecnología e innovación para transformar el futuro.</p></div><div class="footer-links"><h2>Explora</h2><a href="#programas">Programas educativos</a><a href="#noticias">Noticias</a><a href="#avisos">Avisos</a></div><div class="footer-links"><h2>Información</h2><a href="#contacto">Contacto</a><a href="#contacto">Aviso de privacidad</a><a href="#inicio">Mapa del sitio</a></div></div><div class="container footer-bottom"><span>© <span id="year">2026</span> Facultad de Telemática · Universidad de Colima</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+</body>
+</html>
